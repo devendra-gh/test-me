@@ -1,12 +1,148 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html public>
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0"/>
+    <title>Parikarma</title>
+
+    <!-- favicon -->
+    <link href="/favicon.ico" rel="shortcut icon" />
+    <link href="/touch.png" rel="apple-touch-icon-precomposed">
+
+    <link rel="stylesheet" type="text/css" href="css/master.css"/>
+
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css"/>
+
+    <script type="text/javascript" src="script/namespace.js"></script>
+    <script type="text/javascript" src="script/libs/webfont.js"></script>
+    <script type="text/javascript" src="script/libs/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="script/libs/jquery-bigtext.js"></script>
+    <script type="text/javascript" src="script/libs/underscore-min.js"></script>
+    <script type="text/javascript" src="script/libs/underscore-contrib.min.js"></script>
+    <script type="text/javascript" src="script/assets.js"></script>
+    <script type="text/javascript" src="script/loaderMaskShape.js"></script>
+    <script type="text/javascript" src="script/utils.js"></script>
+    <script type="text/javascript" src="script/positioning.js"></script>
+    <script type="text/javascript" src="script/libs/pixi.dev.js"></script>
+    <script type="text/javascript" src="script/calloutsData.js"></script>
+    <script type="text/javascript" src="script/scroller.js"></script>
+    <script type="text/javascript" src="script/main.js"></script>
+    <script type="text/javascript" src="script/sharer.js"></script>
+
+    <script>
+        function redirectlink(link) {
+            console.log("should redirect to " + link);
+            document.location.href = link;
+        }
+    </script>
+
+    <script type="text/template" id="billboard-template">
+        <div class="billboard {{section}}-sections">
+            <div class="billboard-title">
+                <div class="head">{{pod_subhead}}</div>
+                <div class="sub-head">{{pod_title}}</div>
+            </div>
+            <div class="billboard-scaler">
+                <div class="billboard-content">
+                    {{pod_content}}
+                    {{pod_cta1}}
+                    {{pod_cta2}}
+                </div>
+
+                <div class="billboard-mobile-cta">
+                    <div class="clickable" data-link="/hours-directions/"
+                         onclick="redirectlink('https://www.spaceneedle.com/hours-directions/')">Hours &amp; Directions
+                    </div>
+                    <div class="clickable" data-link="/reservations/"
+                         onclick="redirectlink('https://www.spaceneedle.com/reservations/')">Skycity Reservations
+                    </div>
+                    <div class="clickable" data-link="https://store.accesso.com/SN"
+                         onclick="redirectlink('https://store.accesso.com/SN')">Buy Tickets
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/template" id="hotspot-template">
+        <div class="hotspot-container">
+            <div class="hotspot {{direction}}">
+                <div class="hotspot-title {{color}}">
+                    <div class="hotspot-title-container">
+                        <h1>{{pod_title}}</h1>
+                    </div>
+                </div>
+                <div class="hotspot-content">
+                    {{pod_content}}
+                    {{pod_image[0] && '<img class="pod_image" src="' + pod_image[0].guid + '"/>' }}
+                    <div class="share show{{pod_shareable}}">
+                        <div class="sharelabel"><h2>SHARE</h2></div>
+                        <a class="facebook clickable"
+                           onClick="Sharer.shareFacebook('/');return false;" href="#"><img
+                                src="images/social/facebook_big.png"/></a>
+                        <a class="twitter clickable"
+                           onClick="Sharer.shareTwitter('/','{{pod_sharetext}}');return false;"
+                           href="#"><img src="images/social/twitter_big.png"/></a>
+                        <a class="google clickable"
+                           onClick="Sharer.shareGoogle('/');return false;" href="#"><img
+                                src="images/social/google_big.png"/></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/template" id="height-hotspot-template">
+        <div class="height-hotspot">
+            <div class="title clickable">
+                <div class="container clickable">
+                    <h1 class="clickable">{{pod_title}}</h1>
+
+                    <div class="jack clickable">
+                        <img src="images/hotspot_black.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="content-container">
+                <div class="content">
+                    {{pod_content}}
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script type="text/template" id="space-template">
+        <div class="space-container">
+            <div class="space">
+                <div class="space-title">
+                    <h1>#SNEEDLE</h1>
+                </div>
+                <div class="message">
+                    "I scrolled 605 feet to the top of the Space Needle!"
+                </div>
+                <div class="share">
+                    <h2>Share</h2>
+                    <a class="facebook clickable"
+                       onClick="Sharer.shareFacebook('/');return false;" href="#"><img
+                            clickable src="images/social/facebook_big.png"/></a>
+                    <a class="twitter clickable"
+                       onClick="Sharer.shareTwitter('/','I scrolled 605ft to the top of the Space Needle!');return false;"
+                       href="#"><img clickable src="images/social/twitter_big.png"/></a>
+                    <a class="google clickable"
+                       onClick="Sharer.shareGoogle('/');return false;" href="#"><img clickable src="images/social/google_big.png"/></a>
+                </div>
+            </div>
+        </div>
+    </script>
+
 </head>
+
 <body>
 
-    <h1>Hello Devendra</h1>
+    <div id="pixiStage"></div>
 
 </body>
+
 </html>

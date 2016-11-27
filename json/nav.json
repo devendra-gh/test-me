@@ -1,0 +1,703 @@
+[
+  {
+    "ID": 166,
+    "nav_label": "Buy Tickets",
+    "title_attr": "",
+    "slug": "buy-tickets",
+    "url": "#\/#daily",
+    "target": "",
+    "description": "",
+    "css_class_array": [
+      "buy-tickets-btn"
+    ],
+    "css_class_string": "buy-tickets-btn",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 42,
+    "nav_label": "Visit",
+    "title_attr": "",
+    "slug": "visit",
+    "url": "https:\/\/www.spaceneedle.com\/hours-directions",
+    "target": "",
+    "description": "",
+    "css_class_array": [
+      "visit-btn"
+    ],
+    "css_class_string": "visit-btn",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": [
+      {
+        "ID": 139,
+        "nav_label": "Hours & Directions",
+        "title_attr": "",
+        "slug": "hours-directions",
+        "url": "https:\/\/www.spaceneedle.com\/hours-directions",
+        "target": "",
+        "description": "<b>Observation Deck<\/b>\r\n<br>\r\nMON-SUN:  10am\u20139:30pm<br>\r\n<em>*last ticket sold 30 minutes prior.<\/em>\r\n\r\n",
+        "css_class_array": [
+          "nav-title"
+        ],
+        "css_class_string": "nav-title",
+        "link_rel": "",
+        "parent_id": "42",
+        "children": [
+          {
+            "ID": 1847,
+            "nav_label": "Get Info",
+            "title_attr": "",
+            "slug": "get-info",
+            "url": "https:\/\/www.spaceneedle.com\/hours-directions\/",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "139",
+            "children": []
+          },
+          {
+            "ID": 1845,
+            "nav_label": "Get Directions",
+            "title_attr": "",
+            "slug": "get-directions",
+            "url": "https:\/\/www.spaceneedle.com\/hours-directions\/#\/#directions",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "139",
+            "children": []
+          },
+          {
+            "ID": 4229,
+            "nav_label": "Shop",
+            "title_attr": "",
+            "slug": "shop",
+            "url": "https:\/\/space-needle.myshopify.com\/",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "139",
+            "children": []
+          }
+        ]
+      },
+      {
+        "ID": 285,
+        "nav_label": "Observation Deck",
+        "title_attr": "",
+        "slug": "observation-deck",
+        "url": "https:\/\/www.spaceneedle.com\/observation-deck\/",
+        "target": "",
+        "description": "From 520 Feet up, enjoy 360 degree views that make the Space Needle an international marvel.",
+        "css_class_array": [
+          "nav-link"
+        ],
+        "css_class_string": "nav-link",
+        "link_rel": "",
+        "parent_id": "42",
+        "children": [
+          {
+            "ID": 1842,
+            "nav_label": "Observation Deck",
+            "title_attr": "",
+            "slug": "observation-deck",
+            "url": "https:\/\/www.spaceneedle.com\/observation-deck",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "285",
+            "children": []
+          },
+          {
+            "ID": 4709,
+            "nav_label": "Experience the WOW",
+            "title_attr": "",
+            "slug": "experience-the-wow",
+            "url": "https:\/\/www.spaceneedle.com\/wow",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "285",
+            "children": []
+          }
+        ]
+      },
+      {
+        "ID": 3535,
+        "nav_label": "Plan Your Trip",
+        "title_attr": "target=&#8221;_blank&#8221;",
+        "slug": "plan-your-trip",
+        "url": "https:\/\/www.spaceneedle.com\/plan-your-trip\/",
+        "target": "",
+        "description": "Create your own personalized day-by-day trip to Seattle in moments. Powered by Utrip.",
+        "css_class_array": [
+          ""
+        ],
+        "css_class_string": "",
+        "link_rel": "",
+        "parent_id": "42",
+        "children": [
+          {
+            "ID": 3536,
+            "nav_label": "Get Started Now",
+            "title_attr": "",
+            "slug": "get-started-now",
+            "url": "https:\/\/www.spaceneedle.com\/plan-your-trip\/",
+            "target": "",
+            "description": " ",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "3535",
+            "children": []
+          }
+        ]
+      },
+      {
+        "ID": 1870,
+        "nav_label": "PanoCam",
+        "title_attr": "",
+        "slug": "panocam",
+        "url": "https:\/\/www.spaceneedle.com\/webcam",
+        "target": "_blank",
+        "description": "Experience Seattle in surroundview with our panoramic cam.",
+        "css_class_array": [
+          "title",
+          "margin-top"
+        ],
+        "css_class_string": "title margin-top",
+        "link_rel": "",
+        "parent_id": "42",
+        "children": [
+          {
+            "ID": 1871,
+            "nav_label": "See Seattle Now",
+            "title_attr": "",
+            "slug": "see-seattle-now",
+            "url": "https:\/\/www.spaceneedle.com\/webcam",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "targetnew",
+            "parent_id": "1870",
+            "children": []
+          }
+        ]
+      },
+      {
+        "ID": 53,
+        "nav_label": "Groups",
+        "title_attr": "",
+        "slug": "groups",
+        "url": "https:\/\/www.spaceneedle.com\/groups\/",
+        "target": "",
+        "description": "Visiting with a group of 15 or more? Want to bring your school group to the Needle? Learn more about our special rates here. ",
+        "css_class_array": [
+          "nav-title",
+          "half-height"
+        ],
+        "css_class_string": "nav-title half-height",
+        "link_rel": "",
+        "parent_id": "42",
+        "children": [
+          {
+            "ID": 1843,
+            "nav_label": "Group Info",
+            "title_attr": "",
+            "slug": "group-info",
+            "url": "https:\/\/www.spaceneedle.com\/groups",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "53",
+            "children": []
+          }
+        ]
+      },
+      {
+        "ID": 4018,
+        "nav_label": "World Towers",
+        "title_attr": "",
+        "slug": "world-towers",
+        "url": "https:\/\/www.spaceneedle.com\/world-towers\/",
+        "target": "",
+        "description": "Check out other View Towers all around the World.",
+        "css_class_array": [
+          ""
+        ],
+        "css_class_string": "",
+        "link_rel": "",
+        "parent_id": "42",
+        "children": [
+          {
+            "ID": 4019,
+            "nav_label": "Learn more",
+            "title_attr": "",
+            "slug": "learn-more",
+            "url": "https:\/\/www.spaceneedle.com\/world-towers\/",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "4018",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 168,
+    "nav_label": "SkyCity",
+    "title_attr": "",
+    "slug": "skycity",
+    "url": "https:\/\/www.spaceneedle.com\/information\/",
+    "target": "",
+    "description": "",
+    "css_class_array": [
+      "skycity-btn"
+    ],
+    "css_class_string": "skycity-btn",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": [
+      {
+        "ID": 142,
+        "nav_label": "Skycity Restaurant",
+        "title_attr": "",
+        "slug": "skycity-restaurant",
+        "url": "https:\/\/www.spaceneedle.com\/information",
+        "target": "",
+        "description": "SkyCity Restaurant serves a 360-degree panorama at 500 feet to complement its spirits, wines, beverages, and samplings of all the tastes the Pacific Northwest has to offer.",
+        "css_class_array": [
+          "nav-title"
+        ],
+        "css_class_string": "nav-title",
+        "link_rel": "",
+        "parent_id": "168",
+        "children": [
+          {
+            "ID": 165,
+            "nav_label": "Get Info",
+            "title_attr": "",
+            "slug": "get-info",
+            "url": "https:\/\/www.spaceneedle.com\/information\/",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              "nav-link"
+            ],
+            "css_class_string": "nav-link",
+            "link_rel": "",
+            "parent_id": "142",
+            "children": []
+          },
+          {
+            "ID": 1844,
+            "nav_label": "Meet Chef Jeff",
+            "title_attr": "",
+            "slug": "meet-chef-jeff",
+            "url": "https:\/\/www.spaceneedle.com\/information\/#\/#chef-jeff",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "142",
+            "children": []
+          },
+          {
+            "ID": 729,
+            "nav_label": "Celebration Club",
+            "title_attr": "",
+            "slug": "celebration-club",
+            "url": "https:\/\/www.spaceneedle.com\/celebration-club\/",
+            "target": "",
+            "description": " ",
+            "css_class_array": [
+              "nav-link"
+            ],
+            "css_class_string": "nav-link",
+            "link_rel": "",
+            "parent_id": "142",
+            "children": []
+          }
+        ]
+      },
+      {
+        "ID": 144,
+        "nav_label": "Reservations",
+        "title_attr": "",
+        "slug": "reservations",
+        "url": "",
+        "target": "",
+        "description": "Reserve a table online or call us to make your reservation right now!",
+        "css_class_array": [
+          "nav-title"
+        ],
+        "css_class_string": "nav-title",
+        "link_rel": "",
+        "parent_id": "168",
+        "children": [
+          {
+            "ID": 733,
+            "nav_label": "Reserve a Table",
+            "title_attr": "",
+            "slug": "reserve-a-table",
+            "url": "https:\/\/www.spaceneedle.com\/reservations\/",
+            "target": "",
+            "description": " ",
+            "css_class_array": [
+              "nav-link"
+            ],
+            "css_class_string": "nav-link",
+            "link_rel": "",
+            "parent_id": "144",
+            "children": []
+          },
+          {
+            "ID": 4230,
+            "nav_label": "Buy Gift Cards",
+            "title_attr": "",
+            "slug": "buy-gift-cards",
+            "url": "https:\/\/space-needle.myshopify.com\/collections\/giftcards",
+            "target": "",
+            "description": "",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "144",
+            "children": []
+          }
+        ]
+      },
+      {
+        "ID": 145,
+        "nav_label": "Menus",
+        "title_attr": "",
+        "slug": "menus",
+        "url": "https:\/\/www.spaceneedle.com\/information",
+        "target": "",
+        "description": "",
+        "css_class_array": [
+          "nav-title"
+        ],
+        "css_class_string": "nav-title",
+        "link_rel": "",
+        "parent_id": "168",
+        "children": [
+          {
+            "ID": 151,
+            "nav_label": "Brunch",
+            "title_attr": "",
+            "slug": "brunch",
+            "url": "https:\/\/www.spaceneedle.com\/brunch\/",
+            "target": "",
+            "description": " ",
+            "css_class_array": [
+              "nav-link"
+            ],
+            "css_class_string": "nav-link",
+            "link_rel": "",
+            "parent_id": "145",
+            "children": []
+          },
+          {
+            "ID": 4573,
+            "nav_label": "Lunch",
+            "title_attr": "",
+            "slug": "lunch",
+            "url": "https:\/\/www.spaceneedle.com\/lunch\/",
+            "target": "",
+            "description": " ",
+            "css_class_array": [
+              ""
+            ],
+            "css_class_string": "",
+            "link_rel": "",
+            "parent_id": "145",
+            "children": []
+          },
+          {
+            "ID": 157,
+            "nav_label": "Dinner",
+            "title_attr": "",
+            "slug": "dinner",
+            "url": "https:\/\/www.spaceneedle.com\/dinner\/",
+            "target": "",
+            "description": " ",
+            "css_class_array": [
+              "nav-link"
+            ],
+            "css_class_string": "nav-link",
+            "link_rel": "",
+            "parent_id": "145",
+            "children": []
+          },
+          {
+            "ID": 160,
+            "nav_label": "Kids Menu",
+            "title_attr": "",
+            "slug": "kids-menu",
+            "url": "https:\/\/www.spaceneedle.com\/kids-menu\/",
+            "target": "",
+            "description": " ",
+            "css_class_array": [
+              "nav-link"
+            ],
+            "css_class_string": "nav-link",
+            "link_rel": "",
+            "parent_id": "145",
+            "children": []
+          },
+          {
+            "ID": 163,
+            "nav_label": "Wine List",
+            "title_attr": "",
+            "slug": "wine-list",
+            "url": "https:\/\/www.spaceneedle.com\/wine-list\/",
+            "target": "",
+            "description": " ",
+            "css_class_array": [
+              "nav-link"
+            ],
+            "css_class_string": "nav-link",
+            "link_rel": "",
+            "parent_id": "145",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 167,
+    "nav_label": "News",
+    "title_attr": "",
+    "slug": "news",
+    "url": "https:\/\/www.spaceneedle.com\/events",
+    "target": "",
+    "description": "",
+    "css_class_array": [
+      "news-events-btn"
+    ],
+    "css_class_string": "news-events-btn",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 4798,
+    "nav_label": "Shop",
+    "title_attr": "",
+    "slug": "shop",
+    "url": "https:\/\/space-needle.myshopify.com\/",
+    "target": "",
+    "description": "",
+    "css_class_array": [
+      "shop-btn"
+    ],
+    "css_class_string": "shop-btn",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 3242,
+    "nav_label": "Private Events",
+    "title_attr": "",
+    "slug": "private-events",
+    "url": "https:\/\/www.spaceneedle.com\/private-events\/",
+    "target": "",
+    "description": "",
+    "css_class_array": [
+      "news-events-btn"
+    ],
+    "css_class_string": "news-events-btn",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 2847,
+    "nav_label": "Apps",
+    "title_attr": "",
+    "slug": "apps",
+    "url": "https:\/\/www.spaceneedle.com\/app\/",
+    "target": "",
+    "description": "",
+    "css_class_array": [
+      "news-events-btn"
+    ],
+    "css_class_string": "news-events-btn",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 169,
+    "nav_label": "SpaceBook",
+    "title_attr": "target=&#8221;_blank&#8221;",
+    "slug": "spacebook",
+    "url": "https:\/\/spacebook.spaceneedle.com\/",
+    "target": "",
+    "description": "",
+    "css_class_array": [
+      "find-photo-btn"
+    ],
+    "css_class_string": "find-photo-btn",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 2172,
+    "nav_label": "Jobs & Press",
+    "title_attr": "",
+    "slug": "jobs-press",
+    "url": "https:\/\/www.spaceneedle.com\/history\/",
+    "target": "",
+    "description": "",
+    "css_class_array": [
+      "jobs-press-btn"
+    ],
+    "css_class_string": "jobs-press-btn",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 899,
+    "nav_label": "Nav Feed",
+    "title_attr": "",
+    "slug": "nav-feed",
+    "url": "https:\/\/www.spaceneedle.com\/nav\/",
+    "target": "",
+    "description": " ",
+    "css_class_array": [
+      ""
+    ],
+    "css_class_string": "",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 906,
+    "nav_label": "Fun Facts",
+    "title_attr": "",
+    "slug": "fun-facts",
+    "url": "https:\/\/www.spaceneedle.com\/fun-facts\/",
+    "target": "",
+    "description": " ",
+    "css_class_array": [
+      ""
+    ],
+    "css_class_string": "",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 929,
+    "nav_label": "Privacy",
+    "title_attr": "",
+    "slug": "privacy",
+    "url": "https:\/\/www.spaceneedle.com\/privacy\/",
+    "target": "",
+    "description": " ",
+    "css_class_array": [
+      ""
+    ],
+    "css_class_string": "",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 950,
+    "nav_label": "Gift Cards",
+    "title_attr": "",
+    "slug": "gift-cards",
+    "url": "https:\/\/www.spaceneedle.com\/gift-cards\/",
+    "target": "",
+    "description": " ",
+    "css_class_array": [
+      ""
+    ],
+    "css_class_string": "",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 955,
+    "nav_label": "404",
+    "title_attr": "",
+    "slug": "404",
+    "url": "https:\/\/www.spaceneedle.com\/404-2\/",
+    "target": "",
+    "description": " ",
+    "css_class_array": [
+      ""
+    ],
+    "css_class_string": "",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  },
+  {
+    "ID": 958,
+    "nav_label": "Gift Shop",
+    "title_attr": "",
+    "slug": "gift-shop",
+    "url": "https:\/\/www.spaceneedle.com\/gift-shop\/",
+    "target": "",
+    "description": " ",
+    "css_class_array": [
+      ""
+    ],
+    "css_class_string": "",
+    "link_rel": "",
+    "parent_id": "0",
+    "children": []
+  }
+]
